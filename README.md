@@ -1,4 +1,6 @@
 # ZhiFou.WeChatPayV3
+[![Nuget](https://img.shields.io/nuget/v/ZhiFou.WeChatPayV3)](https://www.nuget.org/packages/ZhiFou.WeChatPayV3/)
+[![Nuget](https://img.shields.io/nuget/dt/ZhiFou.WeChatPayV3)](https://www.nuget.org/packages/ZhiFou.WeChatPayV3/)
 
 微信支付SDK，v3版本
 
