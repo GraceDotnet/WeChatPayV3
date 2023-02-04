@@ -3,17 +3,26 @@
 	<PropertyGroup>
 		<TargetFrameworks>net461;net5.0;</TargetFrameworks>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-		<Description>轻量级高性能微信支付ApiV3库</Description>
+		<Description>轻量级高性能微信支付V3库 https://github.com/zhifou-io/WeChatPayV3</Description>
 		<AssemblyVersion></AssemblyVersion>
 		<Version>1.0.5</Version>
 		<Authors>Gui.H</Authors>
 		<GenerateDocumentationFile>True</GenerateDocumentationFile>
 		<Title>轻量高性能微信支付V3 SDK</Title>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<RepositoryUrl>https://github.com/zhifou-io/WeChatPayV3</RepositoryUrl>
+		<PackageProjectUrl>https://github.com/zhifou-io/WeChatPayV3</PackageProjectUrl>
+		<Copyright>Gui.H All Rights Reserved.</Copyright>
+		<PackageIcon>wxpay.png</PackageIcon>
+		<RepositoryType>git</RepositoryType>
 	</PropertyGroup>
 
 	<ItemGroup>
 	  <None Include="..\..\README.md">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	  <None Include="..\..\wxpay.png">
 	    <Pack>True</Pack>
 	    <PackagePath>\</PackagePath>
 	  </None>
