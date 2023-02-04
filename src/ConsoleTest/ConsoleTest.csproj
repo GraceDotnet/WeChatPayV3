@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\src\SDK.WeChatPayV3.csproj" />
+    <ProjectReference Include="..\WeChatPayV3\SDK.WeChatPayV3.csproj" />
   </ItemGroup>
 
   <ItemGroup>
