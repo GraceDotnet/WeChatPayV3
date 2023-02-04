@@ -5,7 +5,7 @@
 
 ## 调用示例
 
-···
+```
 // 接口调用示例
 // https://pay.weixin.qq.com/wiki/doc/apiv3/apis/chapter3_1_1.shtml
 
@@ -24,4 +24,4 @@ var res = client.ExecuteRequest(new TransactionsJsapiRequest
     },
     payer = new Payer { openid = "o4GgauInH_RCEdvrrNGrntXDuXXX" }
 }, new WechatOptions("wxdace645e0bc2cXXX", "161XXXXXXX", "cert.p12", "752c744226e5dadad099b406148c9"));
-···
+```
