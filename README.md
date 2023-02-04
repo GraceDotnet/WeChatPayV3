@@ -1,4 +1,4 @@
-# SDK.WeChatPayV3
+# ZhiFou.WeChatPayV3
 
 微信支付SDK，v3版本
 
