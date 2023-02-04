@@ -9,10 +9,4 @@
     <ProjectReference Include="..\WeChatPayV3\ZhiFou.WeChatPayV3.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <None Update="bx_apiclient_cert.p12">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
-
 </Project>
