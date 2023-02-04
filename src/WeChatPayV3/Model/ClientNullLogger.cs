@@ -1,7 +1,7 @@
-using SDK.WeChatPayV3.Interface;
 using System;
+using ZhiFou.WeChatPayV3.Interface;
 
-namespace MQTTnet.Diagnostics
+namespace ZhiFou.WeChatPayV3.Model
 {
     public sealed class ClientNullLogger : IClientLogger
     {

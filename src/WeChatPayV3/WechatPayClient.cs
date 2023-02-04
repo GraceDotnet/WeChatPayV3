@@ -1,22 +1,17 @@
-﻿using MQTTnet.Diagnostics;
-using Newtonsoft.Json;
-using SDK.WeChatPayV3.Interface;
+﻿using Newtonsoft.Json;
 using System;
 using System.Net.Http;
 using System.Security.Cryptography;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
-using System.Threading.Tasks;
-using WeChatPayV3.Extension;
-using WeChatPayV3.Infrastructure;
-using WeChatPayV3.Interface;
-using WeChatPayV3.Model;
-using WeChatPayV3.Model.Base;
-using WeChatPayV3.Notify;
-using WeChatPayV3.Request;
-using WeChatPayV3.Response;
+using ZhiFou.WeChatPayV3.Extension;
+using ZhiFou.WeChatPayV3.Infrastructure;
+using ZhiFou.WeChatPayV3.Interface;
+using ZhiFou.WeChatPayV3.Model;
+using ZhiFou.WeChatPayV3.Model.Base;
+using ZhiFou.WeChatPayV3.Notify;
 
-namespace WeChatPayV3
+namespace ZhiFou.WeChatPayV3
 {
     public sealed class WechatPayClient : IWeChatPayClient
     {

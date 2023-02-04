@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using WeChatPayV3.Response;
+using ZhiFou.WeChatPayV3.Model;
 
-namespace WeChatPayV3.Extension
+namespace ZhiFou.WeChatPayV3.Extension
 {
     public class ExecuteResult<T>
     {

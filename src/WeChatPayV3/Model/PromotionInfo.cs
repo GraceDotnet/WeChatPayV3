@@ -1,7 +1,7 @@
 ﻿using System;
 using Newtonsoft.Json;
 
-namespace WeChatPayV3.Model
+namespace ZhiFou.WeChatPayV3.Model
 {
     /// <summary>
     /// 优惠信息
@@ -12,7 +12,7 @@ namespace WeChatPayV3.Model
         /// 券ID
         /// 示例值：109519
         /// </summary>
-        [JsonProperty(PropertyName ="coupon_id")]
+        [JsonProperty(PropertyName = "coupon_id")]
         public string CouponId { get; set; }
 
 
@@ -20,7 +20,7 @@ namespace WeChatPayV3.Model
         /// 优惠名称
         /// 示例值：单品惠-6
         /// </summary>
-        [JsonProperty(PropertyName ="name")]
+        [JsonProperty(PropertyName = "name")]
         public string Name { get; set; }
 
 
@@ -30,7 +30,7 @@ namespace WeChatPayV3.Model
         /// GLOBAL：全场代金券
         /// SINGLE：单品优惠
         /// </summary>
-        [JsonProperty(PropertyName ="scope")]
+        [JsonProperty(PropertyName = "scope")]
         public string Scope
         {
             get { return Scope; }
@@ -50,7 +50,7 @@ namespace WeChatPayV3.Model
         /// CASH：充值
         /// NOCASH：预充值
         /// </summary>
-        [JsonProperty(PropertyName ="type")]
+        [JsonProperty(PropertyName = "type")]
         public string Type
         {
             get { return Type; }
@@ -70,7 +70,7 @@ namespace WeChatPayV3.Model
         /// 优惠券面额
         /// 示例值：100
         /// </summary>
-        [JsonProperty(PropertyName ="amount")]
+        [JsonProperty(PropertyName = "amount")]
         public int Amount
         {
             get
@@ -92,7 +92,7 @@ namespace WeChatPayV3.Model
         /// 活动ID
         /// 示例值：931386
         /// </summary>
-        [JsonProperty(PropertyName ="stock_id")]
+        [JsonProperty(PropertyName = "stock_id")]
         public int? StockId { get; set; }
 
 
@@ -100,7 +100,7 @@ namespace WeChatPayV3.Model
         /// 微信出资，单位为分
         /// 示例值：0
         /// </summary>
-        [JsonProperty(PropertyName ="wechatpay_contribute")]
+        [JsonProperty(PropertyName = "wechatpay_contribute")]
         public int? WechatpayContribute { get; set; }
 
 
@@ -108,7 +108,7 @@ namespace WeChatPayV3.Model
         /// 商户出资，单位为分
         /// 示例值：0
         /// </summary>
-      [JsonProperty(PropertyName ="merchant_contribute")]
+        [JsonProperty(PropertyName = "merchant_contribute")]
         public int? MerchantContribute { get; set; }
 
 
@@ -116,14 +116,14 @@ namespace WeChatPayV3.Model
         /// 其他出资，单位为分
         ///示例值：0
         /// </summary>
-        [JsonProperty(PropertyName ="other_contribute")]
+        [JsonProperty(PropertyName = "other_contribute")]
         public int? OtherContribute { get; set; }
 
 
         /// <summary>
         /// 优惠币种
         /// </summary>
-        [JsonProperty(PropertyName ="currency")]
+        [JsonProperty(PropertyName = "currency")]
         public string Currency
         {
             get { return Currency; }

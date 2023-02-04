@@ -1,7 +1,7 @@
 ﻿using System.Collections.Concurrent;
 using System.Security.Cryptography.X509Certificates;
 
-namespace WeChatPayV3.Infrastructure
+namespace ZhiFou.WeChatPayV3.Infrastructure
 {
     /// <summary>
     /// 统一管理平台证书

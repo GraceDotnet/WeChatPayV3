@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace WeChatPayV3.Model
+namespace ZhiFou.WeChatPayV3.Model
 {
     /// <summary>
     /// 场景信息
@@ -10,7 +10,7 @@ namespace WeChatPayV3.Model
         /// <summary>
         /// 商户端设备号
         /// </summary>
-        [JsonProperty(PropertyName ="device_id")]
+        [JsonProperty(PropertyName = "device_id")]
         public string DeviceId { get; set; }
     }
 }

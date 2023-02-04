@@ -1,4 +1,4 @@
-﻿namespace WeChatPayV3.Notify
+﻿namespace ZhiFou.WeChatPayV3.Notify
 {
     public abstract class WechatPayNotification
     {

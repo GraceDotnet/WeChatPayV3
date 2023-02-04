@@ -1,16 +1,25 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFrameworks>net461;net5;</TargetFrameworks>
+		<TargetFrameworks>net461;net5.0;</TargetFrameworks>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<Description>轻量级高性能微信支付ApiV3库</Description>
 		<AssemblyVersion></AssemblyVersion>
 		<Version>1.0.5</Version>
 		<Authors>Gui.H</Authors>
+		<GenerateDocumentationFile>True</GenerateDocumentationFile>
+		<Title>轻量高性能微信支付V3 SDK</Title>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
 	</PropertyGroup>
 
 	<ItemGroup>
-		<!--<PackageReference Include="BouncyCastle" Version="1.8.9" />-->
+	  <None Include="..\..\README.md">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	</ItemGroup>
+
+	<ItemGroup>
 		<PackageReference Include="BouncyCastle.NetCore" Version="1.8.10" />
 		<PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
 		<PackageReference Include="System.Net.Http" Version="4.3.4" />

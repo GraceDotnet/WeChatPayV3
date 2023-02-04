@@ -1,8 +1,7 @@
 ﻿using Newtonsoft.Json;
-using WeChatPayV3.Notify;
-using WeChatPayV3.SDK.Model;
+using ZhiFou.WeChatPayV3.Model;
 
-namespace WeChatPayV3.Response
+namespace ZhiFou.WeChatPayV3.Notify
 {
     /// <summary>
     /// 通知报文
@@ -14,41 +13,41 @@ namespace WeChatPayV3.Response
         /// 通知ID
         /// 示例值：EV-2018022511223320873
         /// </summary>
-        [JsonProperty(PropertyName ="id")]
+        [JsonProperty(PropertyName = "id")]
         public string Id { get; set; }
 
         /// <summary>
         /// 通知创建的时间，遵循rfc3339标准格式，格式为YYYY-MM-DDTHH:mm:ss+TIMEZONE
         /// 示例值：2015-05-20T13:29:35+08:00
         /// </summary>
-        [JsonProperty(PropertyName ="create_time")]
+        [JsonProperty(PropertyName = "create_time")]
         public string CreateTime { get; set; }
 
         /// <summary>
         /// 通知的类型，支付成功通知的类型为TRANSACTION.SUCCESS
         /// 示例值：TRANSACTION.SUCCESS
         /// </summary>
-        [JsonProperty(PropertyName ="event_type")]
+        [JsonProperty(PropertyName = "event_type")]
         public string EventType { get; set; }
 
         /// <summary>
         /// 通知的资源数据类型，支付成功通知为encrypt-resource
         /// 示例值：encrypt-resource
         /// </summary>
-        [JsonProperty(PropertyName ="resource_type")]
+        [JsonProperty(PropertyName = "resource_type")]
         public string ResourceType { get; set; }
 
         /// <summary>
         /// 通知加密信息
         /// </summary>
-        [JsonProperty(PropertyName ="resource")]
+        [JsonProperty(PropertyName = "resource")]
         public EncryptInfo EncryptInfo { get; set; }
 
         /// <summary>
         /// 回调摘要
         /// 示例值：支付成功
         /// </summary>
-        [JsonProperty(PropertyName ="summary")]
+        [JsonProperty(PropertyName = "summary")]
         public string Summary { get; set; }
 
         [JsonIgnore]

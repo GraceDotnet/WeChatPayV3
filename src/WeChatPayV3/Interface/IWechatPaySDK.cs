@@ -1,4 +1,4 @@
-﻿namespace WeChatPayV3.Interface
+﻿namespace ZhiFou.WeChatPayV3.Interface
 {
     public interface IWechatPaySDK
     {

@@ -1,8 +1,7 @@
 ﻿using Newtonsoft.Json;
-using WeChatPayV3.Model.Base;
-using WeChatPayV3.Response;
+using ZhiFou.WeChatPayV3.Model.Base;
 
-namespace WeChatPayV3.Interface
+namespace ZhiFou.WeChatPayV3.Interface
 {
     public interface IWechatPayRequestSDK<T> where T : WechatPayBaseResponse
     {
@@ -16,7 +15,7 @@ namespace WeChatPayV3.Interface
         /// 请求方法
         /// </summary>
         /// <returns></returns>
-        [JsonIgnore] 
+        [JsonIgnore]
         string RequestMethod { get; }
 
         /// <summary>

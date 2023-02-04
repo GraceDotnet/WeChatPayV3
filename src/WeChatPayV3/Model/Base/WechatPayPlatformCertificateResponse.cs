@@ -4,11 +4,8 @@ using System.Linq;
 using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.Security.Cryptography;
-using WeChatPayV3.Utility;
-using WeChatPayV3.SDK.Model;
-using WeChatPayV3.Model.Base;
 
-namespace WeChatPayV3.Response
+namespace ZhiFou.WeChatPayV3.Model.Base
 {
 
     /// <summary>

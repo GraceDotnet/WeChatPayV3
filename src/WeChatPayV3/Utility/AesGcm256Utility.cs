@@ -4,7 +4,7 @@ using Org.BouncyCastle.Crypto.Parameters;
 using System;
 using System.Text;
 
-namespace WeChatPayV3.Utility
+namespace ZhiFou.WeChatPayV3.Utility
 {
     public class AesGcm256Utility
     {

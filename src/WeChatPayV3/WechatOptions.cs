@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Security.Cryptography.X509Certificates;
 
-namespace WeChatPayV3
+namespace ZhiFou.WeChatPayV3
 {
     public class WechatOptions
     {

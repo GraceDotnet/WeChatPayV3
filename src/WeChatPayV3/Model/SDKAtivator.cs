@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace WeChatPayV3.Model
+namespace ZhiFou.WeChatPayV3.Model
 {
     /// <summary>
     /// 调起
@@ -8,22 +8,22 @@ namespace WeChatPayV3.Model
     public class SDKAtivator
     {
 
-        [JsonProperty(PropertyName ="appId")]
+        [JsonProperty(PropertyName = "appId")]
         public string AppId { get; set; }
 
-        [JsonProperty(PropertyName ="timeStamp")]
-        public long TimeStamp { get;  set; } 
+        [JsonProperty(PropertyName = "timeStamp")]
+        public long TimeStamp { get; set; }
 
-        [JsonProperty(PropertyName ="nonceStr")]
-        public string NonceStr { get; set; } 
+        [JsonProperty(PropertyName = "nonceStr")]
+        public string NonceStr { get; set; }
 
-        [JsonProperty(PropertyName ="package")]
+        [JsonProperty(PropertyName = "package")]
         public string Package { get; set; }
 
-        [JsonProperty(PropertyName ="signType")]
+        [JsonProperty(PropertyName = "signType")]
         public string SignType { get; private set; } = "RSA";
 
-        [JsonProperty(PropertyName ="paySign")]
+        [JsonProperty(PropertyName = "paySign")]
         public string PaySign { get; set; }
 
     }

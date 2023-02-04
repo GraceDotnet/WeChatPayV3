@@ -4,9 +4,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using WeChatPayV3.Utility;
+using ZhiFou.WeChatPayV3.Utility;
 
-namespace WeChatPayV3.SDK.Model
+namespace ZhiFou.WeChatPayV3.Model
 {
     /// <summary>
     /// 解密信息

@@ -1,6 +1,6 @@
 ﻿using ConsoleTest.Models;
 using System;
-using WeChatPayV3;
+using ZhiFou.WeChatPayV3;
 
 namespace ConsoleTest
 {

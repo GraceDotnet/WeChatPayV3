@@ -1,4 +1,4 @@
-﻿namespace WeChatPayV3.Response
+﻿namespace ZhiFou.WeChatPayV3.Model
 {
     /// <summary>
     /// 应答响应头

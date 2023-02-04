@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SDK.WeChatPayV3.Interface
+namespace ZhiFou.WeChatPayV3.Interface
 {
     public interface IClientLogger
     {

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using WeChatPayV3.Interface;
+using ZhiFou.WeChatPayV3.Interface;
 
 namespace ConsoleTest.Models
 {

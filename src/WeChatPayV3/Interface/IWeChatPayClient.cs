@@ -1,10 +1,9 @@
 ﻿using System.Threading.Tasks;
-using WeChatPayV3.Model;
-using WeChatPayV3.Model.Base;
-using WeChatPayV3.Notify;
-using WeChatPayV3.Response;
+using ZhiFou.WeChatPayV3.Model;
+using ZhiFou.WeChatPayV3.Model.Base;
+using ZhiFou.WeChatPayV3.Notify;
 
-namespace WeChatPayV3.Interface
+namespace ZhiFou.WeChatPayV3.Interface
 {
     public interface IWeChatPayClient
     {

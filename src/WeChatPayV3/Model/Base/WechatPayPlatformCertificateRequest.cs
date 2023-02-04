@@ -1,7 +1,6 @@
-﻿using WeChatPayV3.Interface;
-using WeChatPayV3.Response;
+﻿using ZhiFou.WeChatPayV3.Interface;
 
-namespace WeChatPayV3.Request
+namespace ZhiFou.WeChatPayV3.Model.Base
 {
 
     /// <summary>
@@ -10,9 +9,9 @@ namespace WeChatPayV3.Request
     /// </summary>
     internal class WechatPayPlatformCertificateRequest : IWechatPayRequestSDK<WechatPayPlatformCertificateResponse>
     {
-        public  string RequestUrl=> "https://api.mch.weixin.qq.com/v3/certificates";
-    
-        public  string RequestMethod=> "GET";
+        public string RequestUrl => "https://api.mch.weixin.qq.com/v3/certificates";
+
+        public string RequestMethod => "GET";
 
         public bool ValidateResponse => false;
     }

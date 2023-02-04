@@ -1,7 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-
-namespace WeChatPayV3.Model
+namespace ZhiFou.WeChatPayV3.Model
 {
     /// <summary>
     /// 订单金额信息
