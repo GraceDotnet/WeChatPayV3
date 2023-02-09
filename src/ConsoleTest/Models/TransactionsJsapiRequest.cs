@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using ZhiFou.WeChatPayV3.Interface;
+using ZhiFou.WeChatPayV3.Model;
 
 namespace ConsoleTest.Models
 {
@@ -28,12 +29,6 @@ namespace ConsoleTest.Models
         public string RequestMethod => "POST";
 
         public bool ValidateResponse => false;
-    }
-
-    public class Amount
-    {
-        public int total { get; set; }
-        public string currency { get; set; }
     }
 
     public class Payer
