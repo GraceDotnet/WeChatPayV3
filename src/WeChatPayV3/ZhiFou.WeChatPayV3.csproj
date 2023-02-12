@@ -5,7 +5,7 @@
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<Description>轻量级高性能微信支付V3库 https://github.com/zhifou-io/WeChatPayV3</Description>
 		<AssemblyVersion></AssemblyVersion>
-		<Version>1.0.5</Version>
+		<Version>1.0.6</Version>
 		<Authors>Gui.H</Authors>
 		<GenerateDocumentationFile>True</GenerateDocumentationFile>
 		<Title>轻量高性能微信支付V3 SDK</Title>

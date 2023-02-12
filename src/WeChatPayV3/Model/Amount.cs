@@ -18,7 +18,7 @@ namespace ZhiFou.WeChatPayV3.Model
         /// 货币类型
         /// CNY：人民币，境内商户号仅支持人民币。
         /// </summary>
-        [JsonProperty(PropertyName = "FooBar")]
+        [JsonProperty(PropertyName = "currency")]
         public string Currency { get; private set; } = "CNY";
     }
 }
